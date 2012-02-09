@@ -1,0 +1,29 @@
+{
+	"name"        : "permit",
+	"version"     : "0.0.1",
+	"description" : "NodeJS authentication abstraction",
+	"keywords"    : [ "auth", "login" ],
+	"author"      : "Diogo Resende <dresende@thinkdigital.pt>",
+	"engines"    : {
+		"node"   : ">= 0.4.0"
+	},
+	"repository" : {
+		"type"   : "git",
+		"url"    : "http://github.com/dresende/node-permit.git"
+	},
+	"directories": {
+		"lib"    : "./lib",
+		"example": "./examples"
+	},
+	"main"       : "./lib/permit",
+	"licenses"   : [{
+		"type"   : "MIT",
+		"url"    : "http://github.com/dresende/node-permit/raw/master/LICENSE"
+	}],
+	"devDependencies": {
+		"vows": "0.6.x"
+	},
+	"scripts": {
+		"test": "vows --spec tests/*"
+	}
+}
