@@ -1,6 +1,6 @@
 {
 	"name"        : "permit",
-	"version"     : "0.0.1",
+	"version"     : "0.0.1-1",
 	"description" : "NodeJS authentication abstraction",
 	"keywords"    : [ "auth", "login" ],
 	"author"      : "Diogo Resende <dresende@thinkdigital.pt>",
